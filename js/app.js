@@ -28,7 +28,7 @@ Employee.prototype.salary =function(){
         return this.netSalary;
     
     }else if(this.level.toUpperCase()=="JUNIOR"){
-        this.salary = Math.floor(Math.random() * (1000 - 500 + 1) ) + 5000; 
+        this.salary = Math.floor(Math.random() * (1000 - 500 + 1) ) + 500; 
         this.netSalary = Math.floor(this.salary - (this.salary * 0.075));
         return this.netSalary;
     }
