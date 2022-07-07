@@ -26,6 +26,7 @@ Employee.prototype.getSalary =function(){
         return this.salary;
     
     }else if(this.level.toUpperCase()=="JUNIOR"){
+
         this.salary = Math.floor(Math.random() * (1000 - 500 + 1) ) + 500; 
         return this.salary;
     }
