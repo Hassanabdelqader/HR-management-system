@@ -44,19 +44,19 @@ Employee.prototype.getNetSalary =function(){
 
 
 
-const ghaziSamer  = new Employee(1000,"Hasan Mousa" , "Administration" , "Senior","./assets/Ghazi.jpg" );
+const ghaziSamer  = new Employee(1000,"Hasan Mousa" , "Administration" , "Senior","/assets/Ghazi.jpg" );
 
-const lanaAli  = new Employee(1001,"Doha Ibnian" , "Finance" ,"Senior","./assets/Lana.jpg" );
+const lanaAli  = new Employee(1001,"Doha Ibnian" , "Finance" ,"Senior","/assets/Lana.jpg" );
 
-const tamaraAyoub = new Employee(1001,"Tamara Ayoub" , "Marketing" ,"Senior","./assets/Tamara.jpg" );
+const tamaraAyoub = new Employee(1001,"Tamara Ayoub" , "Marketing" ,"Senior","/assets/Tamara.jpg" );
 
-const safiWalid = new Employee(1001,"Safi Walid" , "Administration" , "Mid-Senior" ,"./assets/Safi.jpg");
+const safiWalid = new Employee(1001,"Safi Walid" , "Administration" , "Mid-Senior" ,"/assets/Safi.jpg");
 
-const omarZaid = new Employee(1001,"Omar Zaid" , "Development" ,"Senior","./assets/Omar.jpg"  );
+const omarZaid = new Employee(1001,"Omar Zaid" , "Development" ,"Senior","/assets/Omar.jpg"  );
 
-const ranaSaleh = new Employee(1001,"Rana Saleh" , "Development" ,"Junior","./assets/Rana.jpg"  );
+const ranaSaleh = new Employee(1001,"Rana Saleh" , "Development" ,"Junior","/assets/Rana.jpg"  );
 
-const hadiAhmad = new Employee(1001,"Hadi Ahmad" , "Finance" , "Mid-Senior","./assets/Hadi.jpg"  );
+const hadiAhmad = new Employee(1001,"Hadi Ahmad" , "Finance" , "Mid-Senior","/assets/Hadi.jpg"  );
 
 Employee.prototype.showInfo=function(){
     document.write(` Emplyee Name is : ${this.fullName},and his Salary is :  ${this.getSalary()} <br>`);
