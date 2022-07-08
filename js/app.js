@@ -46,7 +46,9 @@ Employee.prototype.getNetSalary =function(){
 
 const ghaziSamer  = new Employee(1000,"Hasan Mousa" , "Administration" , "Senior","/assets/Ghazi.jpg" );
 
-const lanaAli  = new Employee(1001,"Doha Ibnian" , "Finance" ,"Senior","/assets/Lana.jpg" );
+
+const lanaAli  = new Employee(1001,"Lana" , "Finance" ,"Senior","/assets/Lana.jpg" );
+
 
 const tamaraAyoub = new Employee(1001,"Tamara Ayoub" , "Marketing" ,"Senior","/assets/Tamara.jpg" );
 
