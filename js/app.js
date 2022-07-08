@@ -54,7 +54,7 @@ const safiWalid = new Employee(1001,"Safi Walid" , "Administration" , "Mid-Senio
 
 const omarZaid = new Employee(1001,"Omar Zaid" , "Development" ,"Senior","../assets/Omar.jpg"  );
 
-const ranaSaleh = new Employee(1001,"Rana Saleh" , "Development" ,"Junior","../assets/Rana.jpg"  );
+const ranaSaleh = new Employee(1001,"Rana Saleh" , "Development" ,"Junior","./assets/Rana.jpg"  );
 
 const hadiAhmad = new Employee(1001,"Hadi Ahmad" , "Finance" , "Mid-Senior","../assets/Hadi.jpg"  );
 
