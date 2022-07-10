@@ -46,6 +46,7 @@ Employee.prototype.getNetSalary =function(){
 
 const ghaziSamer  = new Employee(1000,"Hasan Mousa" , "Administration" , "Senior","./assets/Ghazi.jpg" );
 
+
 const lanaAli  = new Employee(1001,"Lana" , "Finance" ,"Senior","./assets/Lana.jpg" );
 
 
@@ -58,6 +59,7 @@ const omarZaid = new Employee(1004,"Omar Zaid" , "Development" ,"Senior","./asse
 const ranaSaleh = new Employee(1005,"Rana Saleh" , "Development" ,"Junior","./assets/Rana.jpg"  );
 
 const hadiAhmad = new Employee(1006,"Hadi Ahmad" , "Finance" , "Mid-Senior","./assets/Hadi.jpg"  );
+
 
 Employee.prototype.showInfo=function(){
     document.write(` Emplyee Name is : ${this.fullName},and his Salary is :  ${this.getSalary()} <br>`);
