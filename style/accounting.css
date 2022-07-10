@@ -88,3 +88,10 @@ transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
     text-decoration: none;
     display: inline-block;
 }
+
+main{
+
+ background-color: #00B74A;
+width: 800px;
+height: 900em;
+}
